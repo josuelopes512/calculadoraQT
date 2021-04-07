@@ -248,7 +248,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "CalculadoraQT"))
+        MainWindow.setWindowIcon(QIcon("icon\logo.png"))
         self.botao_1.setText(_translate("MainWindow", "1"))
         self.botao_2.setText(_translate("MainWindow", "2"))
         self.botao_3.setText(_translate("MainWindow", "3"))
